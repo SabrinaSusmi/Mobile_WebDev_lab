@@ -1,0 +1,122 @@
+.timer {
+  width: 20vw;
+  min-height: 20vh;
+  border: 0.1rem solid #121212;
+  margin-bottom: 0.65em;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.timer__rowOne {
+  margin: 1vh 0vh 1vh 0.5vw;
+}
+
+.timer__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.timer__project {
+  color: grey;
+  font-weight: 600;
+}
+
+.timer__rowTwo {
+  width: 19vw;
+  height: 5vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  color: gray;
+  font-weight: 600;
+}
+
+.timer__timer {
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 4vh;
+}
+
+.timer__rowThree {
+  width: 19vw;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  margin-bottom: 0.3em;
+}
+
+.timer__button {
+  width: 18.7vw;
+  height: 4vh;
+  border: 0.1em solid green;
+  color: green;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  cursor: pointer;
+}
+
+.timer__buttonRed {
+  width: 18.7vw;
+  height: 4vh;
+  border: 0.1em solid red;
+  color: red;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  cursor: pointer;
+}
+
+.edit_buttons {
+  display: flex;
+  align-self: auto;
+  justify-content: space-evenly;
+}
+
+.timerEdit__update {
+  width: 9vw;
+  height: 4vh;
+  border: 0.1em solid blue;
+  color: blue;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  cursor: pointer;
+}
+
+.timerEdit__cancel {
+  width: 9vw;
+  height: 4vh;
+  border: 0.1em solid red;
+  color: red;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  cursor: pointer;
+}
+
+.timer__form {
+  margin: 1vh 0px 2vh 0.5vw;
+}
+
+.timerInput__label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5vh;
+}
+
+.timerInput {
+  height: 2.5vh;
+  width: 14vw;
+  padding: 0.5vh 0.5vw;
+}

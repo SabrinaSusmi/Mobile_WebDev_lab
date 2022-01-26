@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.app__header {
+  margin: 1.5vh 0vh 1.5vh -15vw;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.timer_section {
+  width: 25vw;
+  margin: 0.5em auto;
+  border: #121212 1px solid;
+  align-items: center;
+
+}
+
+.add_button {
+  height: 2rem;
+  width: 2rem;
+  font-size: 2rem;
+  border: 2px solid #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  margin: 1em auto;
+}
